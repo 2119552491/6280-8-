@@ -1,0 +1,238 @@
+gplink-2.2.34 (Jun  1 2022)
+Map File - Created 2024-3-9  11:29:06
+ 
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                  STARTUP       code   00000000    program   0x000002
+              c_interrupt       code   0x000008    program   0x000034
+           code_RGB_Color       code   0x000022    program   0x00008c
+             code_HC_send       code   0x000068    program   0x000088
+                code_Init       code   0x0000ac    program   0x00007c
+code_display_qicailiushui6       code   0x0000ea    program   0x000064
+      ID_HC_Color_table_0       code   0x00011c    program   0x000064
+      ID_HC_Color_table_1       code   0x00014e    program   0x000064
+      ID_HC_Color_table_2       code   0x000180    program   0x000064
+           code_time_task       code   0x0001b2    program   0x00004e
+           code_MC30P6280       code   0x0001d9    program   0x000044
+                    .code       code   0x0001fb    program   0x00001c
+       UD_abs_mc30p6280_0      udata   00000000       data   0x000001
+       UD_abs_mc30p6280_1      udata   0x000001       data   0x000001
+       UD_abs_mc30p6280_2      udata   0x000002       data   0x000001
+       UD_abs_mc30p6280_3      udata   0x000003       data   0x000001
+       UD_abs_mc30p6280_4      udata   0x000004       data   0x000001
+       UD_abs_mc30p6280_6      udata   0x000006       data   0x000001
+       UD_abs_mc30p6280_8      udata   0x000008       data   0x000001
+       UD_abs_mc30p6280_9      udata   0x000009       data   0x000001
+       UD_abs_mc30p6280_a      udata   0x00000a       data   0x000001
+       UD_abs_mc30p6280_b      udata   0x00000b       data   0x000001
+       UD_abs_mc30p6280_c      udata   0x00000c       data   0x000001
+       UD_abs_mc30p6280_d      udata   0x00000d       data   0x000001
+       UD_abs_mc30p6280_e      udata   0x00000e       data   0x000001
+       UD_abs_mc30p6280_f      udata   0x00000f       data   0x000001
+                sharebank      udata   0x000010       data   0x000007
+            UDL_HC_send_0      udata   0x000017       data   0x000004
+          UDL_RGB_Color_0      udata   0x00001b       data   0x000003
+           UD_MC30P6280_0      udata   0x00001e       data   0x000001
+           UD_MC30P6280_1      udata   0x00001f       data   0x000001
+          UDL_MC30P6280_0      udata   0x000020       data   0x000001
+UD_display_qicailiushui6_0      udata   0x000021       data   0x000001
+UD_display_qicailiushui6_1      udata   0x000022       data   0x000001
+UDL_display_qicailiushui6_0      udata   0x000023       data   0x000001
+             UD_HC_send_0      udata   0x000024       data   0x000001
+             UD_HC_send_1      udata   0x000025       data   0x000001
+             UD_HC_send_2      udata   0x000026       data   0x000001
+             UD_HC_send_3      udata   0x000027       data   0x000001
+                UD_Init_0      udata   0x000028       data   0x000001
+                UD_Init_1      udata   0x000029       data   0x000001
+               UDL_Init_0      udata   0x00002a       data   0x000001
+                 UD_key_0      udata   0x00002b       data   0x000001
+                 UD_key_1      udata   0x00002c       data   0x000001
+                 UD_key_2      udata   0x00002d       data   0x000001
+           UD_RGB_Color_0      udata   0x00002e       data   0x000001
+           UD_RGB_Color_1      udata   0x00002f       data   0x000001
+           UD_RGB_Color_2      udata   0x000030       data   0x000001
+           UD_RGB_Color_3      udata   0x000031       data   0x000001
+           UD_RGB_Color_4      udata   0x000032       data   0x000001
+           UD_RGB_Color_5      udata   0x000033       data   0x000001
+           UD_RGB_Color_6      udata   0x000034       data   0x000001
+           UD_RGB_Color_7      udata   0x000035       data   0x000001
+           UD_RGB_Color_8      udata   0x000036       data   0x000001
+           UD_RGB_Color_9      udata   0x000037       data   0x000001
+          UD_RGB_Color_10      udata   0x000038       data   0x000001
+           UD_time_task_0      udata   0x000039       data   0x000001
+           UD_time_task_1      udata   0x00003a       data   0x000001
+           UD_time_task_2      udata   0x00003b       data   0x000001
+           UD_time_task_3      udata   0x00003c       data   0x000001
+           UD_time_task_4      udata   0x00003d       data   0x000001
+          UDL_time_task_0      udata   0x00003e       data   0x000001
+      UD_abs_mc30p6280_41      udata   0x000041       data   0x000001
+      UD_abs_mc30p6280_46      udata   0x000046       data   0x000001
+      UD_abs_mc30p6280_4b      udata   0x00004b       data   0x000001
+      UD_abs_mc30p6280_4c      udata   0x00004c       data   0x000001
+      UD_abs_mc30p6280_4d      udata   0x00004d       data   0x000001
+      UD_abs_mc30p6280_4e      udata   0x00004e       data   0x000001
+      UD_abs_mc30p6280_4f      udata   0x00004f       data   0x000001
+ 
+                              Program Memory Usage
+                               Start         End
+                           ---------   ---------
+                            00000000    00000000
+                            0x000008    0x000021
+                            0x0001d9    0x0001fa
+                            0x0000ea    0x00011b
+                            0x00011c    0x00014d
+                            0x00014e    0x00017f
+                            0x000180    0x0001b1
+                            0x000068    0x0000ab
+                            0x0000ac    0x0000e9
+                            0x000022    0x000067
+                            0x0001b2    0x0001d8
+                            0x0001fb    0x000208
+ 
+                            514 program addresses used
+ 
+                              Symbols
+                     Name    Address   Location    Storage File
+                ---------  ---------  ---------  --------- ---------
+                    STK06   0x000010       data     extern MC30P6280.asm
+                    STK05   0x000011       data     extern MC30P6280.asm
+                    STK04   0x000012       data     extern MC30P6280.asm
+                    STK03   0x000013       data     extern MC30P6280.asm
+                    STK02   0x000014       data     extern MC30P6280.asm
+                    STK01   0x000015       data     extern MC30P6280.asm
+                    STK00   0x000016       data     extern MC30P6280.asm
+                    _abuf   0x00001e       data     extern MC30P6280.asm
+               _statusbuf   0x00001f       data     extern MC30P6280.asm
+                  r0x1005   0x000020       data     static MC30P6280.asm
+         __sdcc_interrupt   0x000008    program     static MC30P6280.asm
+                 _int_isr   0x000008    program     extern MC30P6280.asm
+               _00112_DS_   0x00001d    program     static MC30P6280.asm
+         END_OF_INTERRUPT   0x000021    program     static MC30P6280.asm
+                    _main   0x0001d9    program     extern MC30P6280.asm
+     _code_MC30P6280_0008   0x0001e1    program     static MC30P6280.asm
+               _00106_DS_   0x0001f8    program     static MC30P6280.asm
+                   _flag1   0x000021       data     extern display_qicailiushui6.asm
+             _mode_6_step   0x000022       data     extern display_qicailiushui6.asm
+                  r0x1007   0x000023       data     static display_qicailiushui6.asm
+_RTC_mode_6_qicailiushui_012345_543210_time_deal   0x0000ea    program     extern display_qicailiushui6.asm
+               _00145_DS_   0x0000f6    program     static display_qicailiushui6.asm
+               _00106_DS_   0x0000f7    program     static display_qicailiushui6.asm
+               _00114_DS_   0x0000fe    program     static display_qicailiushui6.asm
+               _00147_DS_   0x000103    program     static display_qicailiushui6.asm
+               _00110_DS_   0x000104    program     static display_qicailiushui6.asm
+               _00115_DS_   0x00010b    program     static display_qicailiushui6.asm
+               _00118_DS_   0x00011b    program     static display_qicailiushui6.asm
+_HC_R_LED_Color_LEVEL_TABLE   0x00011c    program     extern HC_Color_table.asm
+_HC_G_LED_Color_LEVEL_TABLE   0x00014e    program     extern HC_Color_table.asm
+_HC_B_LED_Color_LEVEL_TABLE   0x000180    program     extern HC_Color_table.asm
+                 _led_num   0x000024       data     extern HC_send.asm
+              _send_count   0x000025       data     extern HC_send.asm
+              _Time_Count   0x000026       data     extern HC_send.asm
+          _led_level_temp   0x000027       data     extern HC_send.asm
+                  r0x1005   0x000017       data     static HC_send.asm
+                  r0x1006   0x000018       data     static HC_send.asm
+                  r0x1008   0x000019       data     static HC_send.asm
+                  r0x1007   0x00001a       data     static HC_send.asm
+                _send_000   0x000068    program     extern HC_send.asm
+               _00130_DS_   0x000068    program     static HC_send.asm
+               _00133_DS_   0x000076    program     static HC_send.asm
+         _send_three_byte   0x000077    program     extern HC_send.asm
+           _send_all_byte   0x000081    program     extern HC_send.asm
+               _00118_DS_   0x000081    program     static HC_send.asm
+               _00121_DS_   0x00008a    program     static HC_send.asm
+           _send_one_byte   0x00008b    program     extern HC_send.asm
+               _00105_DS_   0x00008d    program     static HC_send.asm
+               _00109_DS_   0x000096    program     static HC_send.asm
+               _00111_DS_   0x000097    program     static HC_send.asm
+               _00112_DS_   0x0000a0    program     static HC_send.asm
+               _00113_DS_   0x0000ab    program     static HC_send.asm
+             _IR_LED_ON_F   0x000028       data     extern Init.asm
+       _short_mode_init_F   0x000029       data     extern Init.asm
+                  r0x1005   0x00002a       data     static Init.asm
+           _Led_mode_deal   0x0000ac    program     extern Init.asm
+               _00117_DS_   0x0000bc    program     static Init.asm
+               _00114_DS_   0x0000c8    program     static Init.asm
+               _00111_DS_   0x0000d4    program     static Init.asm
+               _00108_DS_   0x0000e0    program     static Init.asm
+               _00118_DS_   0x0000e3    program     static Init.asm
+               _00125_DS_   0x0000e9    program     static Init.asm
+                _LED_duty   0x00002b       data     extern key.asm
+              _key_1_tick   0x00002c       data     extern key.asm
+         _KEY_long_time_F   0x00002d       data     extern key.asm
+        _LED_R_PWM_expect   0x00002e       data     extern RGB_Color.asm
+        _LED_G_PWM_expect   0x00002f       data     extern RGB_Color.asm
+        _LED_B_PWM_expect   0x000030       data     extern RGB_Color.asm
+                _led_mode   0x000031       data     extern RGB_Color.asm
+              _Color_mode   0x000032       data     extern RGB_Color.asm
+                _RTC_mode   0x000033       data     extern RGB_Color.asm
+               _led_level   0x000034       data     extern RGB_Color.asm
+          _led_level_1_16   0x000035       data     extern RGB_Color.asm
+               _led_speed   0x000036       data     extern RGB_Color.asm
+           _RTC_led_level   0x000037       data     extern RGB_Color.asm
+         _temp_byte_value   0x000038       data     extern RGB_Color.asm
+                  r0x1009   0x00001b       data     static RGB_Color.asm
+                  r0x100A   0x00001c       data     static RGB_Color.asm
+                  r0x100B   0x00001d       data     static RGB_Color.asm
+          _led_color_deal   0x000022    program     extern RGB_Color.asm
+          _RGB_color_deal   0x000023    program     extern RGB_Color.asm
+  _LED_PWM_16_LEVEL_TABLE   0x00005c    program     extern RGB_Color.asm
+               _00105_DS_   0x00005d    program     static RGB_Color.asm
+               _00108_DS_   0x000067    program     static RGB_Color.asm
+          _time_50us_tick   0x000039       data     extern time_task.asm
+           _time_1ms_tick   0x00003a       data     extern time_task.asm
+          _time_10ms_tick   0x00003b       data     extern time_task.asm
+         _time_100ms_tick   0x00003c       data     extern time_task.asm
+       _Led_time_1ms_tick   0x00003d       data     extern time_task.asm
+                  r0x1007   0x00003e       data     static time_task.asm
+ _time_50us_tick_function   0x0001b2    program     extern time_task.asm
+               _00106_DS_   0x0001c2    program     static time_task.asm
+               _00107_DS_   0x0001c4    program     static time_task.asm
+               _00114_DS_   0x0001d8    program     static time_task.asm
+                _INDFbits   00000000       data     extern mc30p6280.asm
+                    _INDF   00000000       data     extern mc30p6280.asm
+               _T0CNTbits   0x000001       data     extern mc30p6280.asm
+                   _T0CNT   0x000001       data     extern mc30p6280.asm
+                 _PCLbits   0x000002       data     extern mc30p6280.asm
+                     _PCL   0x000002       data     extern mc30p6280.asm
+              _STATUSbits   0x000003       data     extern mc30p6280.asm
+                  _STATUS   0x000003       data     extern mc30p6280.asm
+                 _FSRbits   0x000004       data     extern mc30p6280.asm
+                     _FSR   0x000004       data     extern mc30p6280.asm
+                  _P1bits   0x000006       data     extern mc30p6280.asm
+                      _P1   0x000006       data     extern mc30p6280.asm
+                 _MCRbits   0x000008       data     extern mc30p6280.asm
+                     _MCR   0x000008       data     extern mc30p6280.asm
+              _P1KBCRbits   0x000009       data     extern mc30p6280.asm
+                  _P1KBCR   0x000009       data     extern mc30p6280.asm
+              _PCLATHbits   0x00000a       data     extern mc30p6280.asm
+                  _PCLATH   0x00000a       data     extern mc30p6280.asm
+               _PDCONbits   0x00000b       data     extern mc30p6280.asm
+                   _PDCON   0x00000b       data     extern mc30p6280.asm
+               _ODCONbits   0x00000c       data     extern mc30p6280.asm
+                   _ODCON   0x00000c       data     extern mc30p6280.asm
+               _PUCONbits   0x00000d       data     extern mc30p6280.asm
+                   _PUCON   0x00000d       data     extern mc30p6280.asm
+                _INTEbits   0x00000e       data     extern mc30p6280.asm
+                    _INTE   0x00000e       data     extern mc30p6280.asm
+                _INTFbits   0x00000f       data     extern mc30p6280.asm
+                    _INTF   0x00000f       data     extern mc30p6280.asm
+                _T0CRbits   0x000041       data     extern mc30p6280.asm
+                    _T0CR   0x000041       data     extern mc30p6280.asm
+                _DDR1bits   0x000046       data     extern mc30p6280.asm
+                    _DDR1   0x000046       data     extern mc30p6280.asm
+               _TMRCRbits   0x00004b       data     extern mc30p6280.asm
+                   _TMRCR   0x00004b       data     extern mc30p6280.asm
+                _T1CRbits   0x00004c       data     extern mc30p6280.asm
+                    _T1CR   0x00004c       data     extern mc30p6280.asm
+               _T1CNTbits   0x00004d       data     extern mc30p6280.asm
+                   _T1CNT   0x00004d       data     extern mc30p6280.asm
+              _T1LOADbits   0x00004e       data     extern mc30p6280.asm
+                  _T1LOAD   0x00004e       data     extern mc30p6280.asm
+              _T1DATAbits   0x00004f       data     extern mc30p6280.asm
+                  _T1DATA   0x00004f       data     extern mc30p6280.asm
+                __gptrget   0x0001fb    program     extern ../../libsdcc_mc30/_gptrget1.asm
+               __gptrget1   0x0001fb    program     extern ../../libsdcc_mc30/_gptrget1.asm
+            __dataptrget1   0x000201    program     static ../../libsdcc_mc30/_gptrget1.asm
+            __codeptrget1   0x000205    program     extern ../../libsdcc_mc30/_gptrget1.asm
+ 
